@@ -62,10 +62,11 @@ input{
     border: none;
     display: inline-flex;
     width: 20%;
+    position: relative;
+    right: 45px;
     border-radius: 30px;
-    margin-right: -40px;
     outline: none;
-    padding: 15px 30px;
+    padding: 18px 30px;
 }
 .main-body{
     /*width: 100%;*/
@@ -96,4 +97,9 @@ input{
         display: flex;
         align-items: center;
     }
+input{
+}
+  .submit{
+      width: 60%;
+  }
 }
