@@ -83,17 +83,16 @@ input{
       align-items: center;
 
   }
-
-.right{
-    padding: 0;
-}
-
+    /*.right{*/
+    /*    padding: 0;*/
+    /*}*/
     .right > img{
-        /*width: 100vw;*/
+        /*display: none;*/
+        width: 100%;
+        margin-left: 0px;
     }
     .nav{
         display: flex;
-        justify-content: center;
         align-items: center;
     }
 }
