@@ -40,7 +40,7 @@ html{
     line-height: 2.4;
 }
 .right> img{
-    width: fit-content;
+    /*width: fit-content;*/
     margin-left: 108px;
 }
 .form{
@@ -85,8 +85,10 @@ input{
     .left{
         margin: 0 auto;
     }
+
+
     .right > img{
-        margin: 0;
+        width: 100vw;
     }
     .nav{
         display: flex;
